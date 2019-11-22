@@ -27,9 +27,6 @@ int main() {
 	for(i=0;i<c;i++) {
 		p1[i]=p[i];			// Array p1 will store all the prime number
 	}
-	for(i=0;i<c;i++) {
-		//printf("%lld\t",p1[i]);
-	}
 	i=0;k=2;
 	while(k) {
 		a=(rand())%c;
